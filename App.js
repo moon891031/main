@@ -16,7 +16,7 @@ import LayoutScreen from './src/screens/LayoutScreen';
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
-// 중앙 버튼 컴포넌트
+// 중앙 버튼 컴포넌트f
 const CustomButton = ({ onPress }) => (
   <TouchableOpacity style={styles.customButton} onPress={onPress}>
     <View style={styles.buttonContainer}>
